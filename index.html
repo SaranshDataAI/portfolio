@@ -21,10 +21,13 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- HERO WITH HEALTH APP AS FACE -->
     <div class="hero" data-aos="fade-up">
-      <img src="assets/profile.png" alt="Profile Picture" />
+      <!-- Using Health App Home Screen as Face -->
+      <img src="assets/profile.png" alt="AI Health Assistant Home Screen" />
       <h1>Hi, I'm Saransh 👋</h1>
-      <p>A passionate tech enthusiast and An AI Engineer building cool AI & Flutter apps.</p>
+      <p>A passionate tech enthusiast and AI Engineer building real-world AI & Flutter apps.</p>
       <div class="buttons">
         <a href="#projects" class="btn">View Projects</a>
         <a href="assets/Saransh_Resume.pdf" download class="btn download">Download Resume</a>
@@ -45,55 +48,75 @@
   <!-- Projects Section -->
   <section id="projects" class="project-section">
     <h2>🚀 Projects</h2>
-    
+
     <div class="project-grid">
 
-      <!-- Fake News Detection Project -->
+      <!-- ✅ AI HEALTH DIAGNOSIS SYSTEM (MAIN PROJECT) -->
       <div class="project-card">
-        <img src="assets/fake-news-ss.png" alt="Fake News Detection App Screenshot">
-        <h3>📰 Fake News Detection</h3>
-        <p>End-to-end Flutter app using Flask API and machine learning to detect whether a news article is real or fake.</p>
-        <a href="https://github.com/SaranshDataAI/Fake-News-Detection-App.git" target="_blank">View on GitHub</a>
+        <img src="assets/1.png" alt="AI Health Diagnosis System Screenshot">
+        <h3>🩺 AI Health Diagnosis System</h3>
+        <p>
+          A full-stack AI-powered health diagnosis platform that predicts diseases based on symptoms using Machine Learning and a live FastAPI backend. Includes severity analysis, confidence score, precautions, multilingual input, and a modern Flutter Web UI.
+        </p>
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <a href="https://github.com/SaranshDataAI/Health_detection_System" target="_blank">View on GitHub</a>
+          <a href="https://hdaps.netlify.app" target="_blank" style="color:#1abc9c; font-weight:bold;">🌐 Live Demo</a>
+        </div>
       </div>
-    
+
       
-      <div class="project-card">
-        <img src="assets/aio-recommender.jpg" alt="AIO Recommendation System Screenshot">
-        <h3>🎬 AIO Recommendation System</h3>
-        <p>An advanced AI-powered Movies + Anime + Webseries recommendation system using FastAPI, SBERT embeddings, TF-IDF vectors, and Flutter mobile app UI.</p>
-        <a href="https://github.com/SaranshDataAI/AIO-Recommendation-System" target="_blank">View on GitHub</a>
-      </div>
+     <!-- Movie Recommendation System -->
+<div class="project-card">
+  <img src="assets/movie-recommender.jpg" alt="Movie Recommendation System Screenshot">
+  <h3>🎬 Movie Recommendation System</h3>
+  <p>
+    A machine learning-powered recommendation system that suggests movies using content-based filtering,
+    similarity scoring, and a modern Flutter Web UI.
+  </p>
+
+  <div style="display:flex; justify-content:space-between; align-items:center;">
+    <a href="https://github.com/SaranshDataAI/Movie-Recommendation-System" target="_blank">
+      View on GitHub
+    </a>
+    <a href="https://aiorecommendationsystem.netlify.app" target="_blank" style="color:#1abc9c; font-weight:bold;">
+      🌐 Live Demo
+    </a>
+  </div>
+</div>
+
 
       <!-- Mumbai House Price Predictor -->
       <div class="project-card">
         <img src="assets/screenshot3.jpg" alt="Mumbai House Price Predictor App Screenshot">
         <h3>🏙️ Mumbai House Price Predictor</h3>
-        <p>A sleek Flutter mobile app that predicts house prices in Mumbai using ML and a live API. Built with a focus on speed and accuracy.</p>
+        <p>
+          A production-grade full-stack Flutter & Machine Learning app that predicts Mumbai house prices using real-time API inference, advanced feature engineering, and modern dark-mode UI.
+        </p>
         <a href="https://github.com/SaranshDataAI/Mobile_Mumbai_app.git" target="_blank">View on GitHub</a>
       </div>
-    
+
     </div>
-    
-  
+
+  </section>
+
   <!-- Skills Section -->
-  <!-- Skills Section -->
-<section id="skills" class="section" data-aos="fade-up">
-  <div class="container">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>💻 Flutter & Dart</li>
-      <li>🧠 Machine Learning</li>
-      <li>🗃️ Firebase & PgSql, MongoDB</li>
-      <li>📊 Python for Data Science</li>
-      <li>📈 Power BI & Tableau</li>
-      <li>📈 Excel & SQL</li>
-      <li>☁️ AWS & Google consol</li>
-      <li>🌐 HTML, CSS, JavaScript</li>
-      <li>🗃️ AI Prompting & ChatGPT</li>
-      <li>🧠 Scikit-learn & NLP</li>
-    </ul>
-  </div>
-</section>
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>💻 Flutter & Dart</li>
+        <li>🧠 Machine Learning</li>
+        <li>🗃️ Firebase, PostgreSQL, MongoDB</li>
+        <li>📊 Python for Data Science</li>
+        <li>📈 Power BI & Tableau</li>
+        <li>📈 Excel & SQL</li>
+        <li>☁️ AWS & Google Cloud</li>
+        <li>🌐 HTML, CSS, JavaScript</li>
+        <li>🗃️ AI Prompting & ChatGPT</li>
+        <li>🧠 Scikit-learn & NLP</li>
+      </ul>
+    </div>
+  </section>
 
   <!-- Contact Section -->
   <section id="contact" class="section" data-aos="fade-up">
@@ -103,31 +126,24 @@
       <ul class="contact-list">
         <li><strong>Email:</strong> <a href="mailto:sharmasaranshwork@gmail.com">sharmasaranshwork@gmail.com</a></li>
         <li><strong>Phone:</strong> <a href="tel:+918290609736">+91 82906 09736</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saransh-sharma-3ba23335a" target="_blank">linkedin.com/in/saransh-sharma-3ba23335a</a></li>
-        <li><strong>Location:</strong> Ajmer, Rajastjan , India</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saransh-sharma-3ba23335a" target="_blank">linkedin.com/in/saransh-sharma</a></li>
+        <li><strong>Location:</strong> Ajmer, Rajasthan, India</li>
       </ul>
     </div>
   </section>
-  
+
   <footer>
     &copy; 2025 Saransh Sharma. All rights reserved.
-  </footer>
-  
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Saransh Sharma. All rights reserved.</p>
   </footer>
 
   <!-- AOS Animation -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init({
-      duration: 1000,
-      once: true
-    });
+    AOS.init({ duration: 1000, once: true });
   </script>
 </body>
 </html>
+
+
 
 
